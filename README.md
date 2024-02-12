@@ -20,21 +20,21 @@
   <h2 id="instalação">1. Instalação</h2>
   
   <ol>
+
+   <li>Navegar para o diretório do projeto:</li>
+ 
+      cd auth-api
+      
   <li>Clonar o repositório Git</li>
   
-      https://github.com/sthevenalves/backend-picpay-simplified.git
-
-  <li>Navegar para o diretório do projeto:</li>
-  
-      cd picpay-simplified
+      git clone https://github.com/sthevenalves/auth-api.git
 
   <li>Compilar o projeto com Maven</li>
 
     mvn clean install
 
-  <li>Executar o projeto:</li>
+   <li>Instale o <a href="https://www.postgresql.org/">PostgreSQL</a></li>
 
-    java -jar target/picpay-simplified.jar
 </ol>
   
   <h2 id="configuração">2. Configuração</h2>
