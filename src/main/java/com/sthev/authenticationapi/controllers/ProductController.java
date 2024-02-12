@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 public class ProductController {
 
     @Autowired
-    ProductRepository repository;
+    private ProductRepository repository;
 
     @PostMapping
     public ResponseEntity<Void> saveProducts(@RequestBody @Valid ProductRequestDTO data){
